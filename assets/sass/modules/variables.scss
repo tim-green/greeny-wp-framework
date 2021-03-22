@@ -1,0 +1,109 @@
+/*
+
+  Variables
+  +
+
+*/
+
+/**
+ * Add custom Bootstrap styles
+ */
+
+// Bootstrap 4 Customization options: https://getbootstrap.com/docs/4.0/getting-started/theming/#sass-options
+/*
+// Options
+$enable-rounded:            true !default;
+$enable-shadows:            false !default;
+$enable-gradients:          false !default;
+$enable-transitions:        true !default;
+$enable-hover-media-query:  false !default;
+$enable-grid-classes:       true !default;
+$enable-print-styles:       true !default;
+
+$spacer:                    1rem !default;
+
+// Grayscale vars
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #868e96 !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+
+// Color vars
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+// Fonts
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace:   Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+*/
+
+
+// Colours
+
+$color-primary: #000;
+
+//Black
+$black: #000;
+$medium-black: #1d1d1d;
+$darker-gray: #272727;
+$dark-gray:#101010;
+$medium-gray: #888;
+$light-gray: #d1d1d1;
+
+//White
+$white: #fff;
+
+//Red
+$soft-red: #dc535b;
+$medium-red: #c9373f;
+
+//Blue
+$aqua: #00add0;
+//Purple
+$magenta: #930f5b;
+
+// Base
+
+$base-line-height: 1.7;
+
+//Google font
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+//Typekit font
+
+//Fonts
+$font-stack: Helvetica, sans-serif;
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+
+// Weights
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+//Text Transform
+$text-cap: capitalize; 
+$text-lower: lowercase;
+$text-upper: uppercase;
+$text-none: none;

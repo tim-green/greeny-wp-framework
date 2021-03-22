@@ -1,0 +1,60 @@
+/*!
+
+  This is the core import file. Section your Sass stylesheets according to the below structure for a nice flow.
+
+*/
+
+
+/*
+
+ ==== Bootstrap Import ====
+
+*/
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+/*
+
+ ==== modules ====
+
+*/
+
+
+@import "modules/mixins";
+@import "modules/variables";
+@import "modules/wp-default";
+@import "modules/base";
+@import "modules/typography";
+
+/*
+
+ ==== Plugins ====
+
+*/
+
+
+
+/*
+
+ ==== Components ====
+
+*/
+
+
+
+/*
+
+ ==== Sections ====
+
+*/
+
+@import "sections/header";
+@import "sections/main";
+@import "sections/footer";
+
+
+/*
+
+ ==== Pages ====
+
+*/

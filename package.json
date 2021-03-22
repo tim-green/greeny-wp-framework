@@ -1,0 +1,38 @@
+{
+  "name": "greeny-framework",
+  "version": "2.1.0",
+  "license": "GPL-2.0",
+  "description": "A WordPress Starter Theme built with Bootstrap 4.",
+  "homepage": "https://www.timgreen.ws",
+  "author": "Tim Green",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tim-green/framework-wp.git"
+  },
+  "scripts": {
+    "watch": "grunt watch"
+  },
+  "dependencies": {
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-sass": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "bootstrap": "^4.6.0",
+    "cssnano": "^4.1.10",
+    "grunt": "^1.3.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.0.0",
+    "grunt-contrib-uglify": "^5.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.1.0",
+    "jquery": ">=3.5.1",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^5.0.0",
+    "pixrem": "^5.0.0",
+    "popper.js": "^1.14.0",
+    "postcss": "^8.2.6"
+  }
+}

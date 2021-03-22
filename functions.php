@@ -158,6 +158,27 @@ $theme_version = '1.0.0';
 	}
 	add_filter( 'comments_open', 'themes_starter_filter_media_comment_status', 10, 2 );
 
+	/**
+	 * Add Advanced Custom Fields Option page
+	 *
+	 * Added for backwards compatibility to support pre 5.2.0 WordPress versions.
+	 * Remove comments from code if you want to use it
+	 *
+	 * @since v1.0
+	 */
+
+	// if( function_exists('acf_add_options_page') ) {
+	
+	// 	acf_add_options_page(array(
+	// 		'icon_url'		=> 'dashicons-feedback',
+	// 		'page_title' 	=> 'Site Options',
+	// 		'menu_title'	=> 'Site Options',
+	// 		'menu_slug' 	=> 'site-options',
+	// 		'capability'	=> 'edit_posts',
+	// 		'redirect'		=> false
+	// 	));
+
+	// }
 
 	/**
 	 * Style Edit buttons as badges: http://getbootstrap.com/components/#badges

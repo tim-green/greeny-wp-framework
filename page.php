@@ -36,6 +36,10 @@
 			
 		</div><!-- /.col -->
 		
+		<?php 
+		//get_template_part('partials/acf-flexible-loop'); 
+	?>
+	
 		<?php get_sidebar(); ?>
 		
 	</div><!-- /.row -->

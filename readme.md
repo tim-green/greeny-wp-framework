@@ -42,11 +42,12 @@ This Theme comes with a built in Task Automation. SASS files will be complied if
 * Modify `/main.scss` and `/js/main.js`
 
 
-## Add-ons Plugin Included
-Inside the plugin folder I've included the following plugins and as this framework/starter theme is specfically built for me to use this is just an reminder of what I've included
+## Plugin Needed
+The plugins needed for this framework/starter theme is specfically built for me to use this is just an reminder of what I've included
 
 - Advanced Custom Fields Pro
-
+- Classic Editor
+- GravityForms
 
 ## Technology
 

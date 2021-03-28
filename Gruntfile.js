@@ -7,8 +7,8 @@ module.exports = function(grunt) {
         jshintrc: '.jshintrc'
       },
       all: [
-        'Gruntfile.js',
-        'assets/js/**/*.js',
+        '!Gruntfile.js',
+        '!assets/js/**/*.js',
         '!assets/build/app.min.js'
       ]
     },
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'assets/build/app.min.js': [
-            'assets/js/app.js'
+            'assets/js/vendor/*.js','assets/js/plugin/*.js','assets/js/**/*.js'
           ]
         },
         options: {
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
         files: [
           'assets/js/**/*.js'
         ],
-        tasks: ['jshint', 'uglify']
+        tasks: ['uglify']
       },
       html: {
         files: [
